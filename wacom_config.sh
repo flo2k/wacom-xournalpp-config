@@ -114,18 +114,18 @@ case $state in
         ;;
     2)
         do_log_verbose "touch ring: disabled"
-        xsetwacom set "$DEV_PAD" "AbsWheelDown" "button 0"  # Scroll up
-        xsetwacom set "$DEV_PAD" "AbsWheelUp"   "button 0"  # Scroll down
+        xsetwacom set "$DEV_PAD" "AbsWheelDown" "button 0"  # Disabled
+        xsetwacom set "$DEV_PAD" "AbsWheelUp"   "button 0"  # Disabled
         ;;
     3)
         do_log_verbose "touch ring: disabled"
-        xsetwacom set "$DEV_PAD" "AbsWheelDown" "button 0"  # Scroll up
-        xsetwacom set "$DEV_PAD" "AbsWheelUp"   "button 0"  # Scroll down
+        xsetwacom set "$DEV_PAD" "AbsWheelDown" "button 0"  # Disabled
+        xsetwacom set "$DEV_PAD" "AbsWheelUp"   "button 0"  # Disabled
         ;;
     *)
         do_log_verbose "touch ring: disabled"
-        xsetwacom set "$DEV_PAD" "AbsWheelDown" "button 0"  # Scroll up
-        xsetwacom set "$DEV_PAD" "AbsWheelUp"   "button 0"  # Scroll down
+        xsetwacom set "$DEV_PAD" "AbsWheelDown" "button 0"  # Disabled
+        xsetwacom set "$DEV_PAD" "AbsWheelUp"   "button 0"  # Disabled
         ;;
 esac
 
