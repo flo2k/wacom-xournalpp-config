@@ -94,11 +94,15 @@ do_log_verbose "led state $state"
 ## Eraser
 
 ## Pad - Keys
-xsetwacom set "$DEV_PAD" "Button" "1" "key +Control_L +Prior -Prior "   # Page up
-xsetwacom set "$DEV_PAD" "Button" "2" "key +Control_L +Next -Next "     # Page down
+xsetwacom set "$DEV_PAD" "Button" "1"  "key +Control_L +Prior -Prior "   # Page up
+xsetwacom set "$DEV_PAD" "Button" "2"  "key +Control_L +Next -Next "     # Page down
 
-xsetwacom set "$DEV_PAD" "Button" "3" "key +Control_L +y -y "           # Redo
-xsetwacom set "$DEV_PAD" "Button" "8" "key +Control_L +z -z "           # Undo
+xsetwacom set "$DEV_PAD" "Button" "3"  "key +Control_L +y -y "           # Redo
+xsetwacom set "$DEV_PAD" "Button" "8"  "key +Control_L +z -z "           # Undo
+
+xsetwacom set "$DEV_PAD" "Button" "9"  "key +Shift_L "                   # Shift
+xsetwacom set "$DEV_PAD" "Button" "10" "key +Control_L "                 # Ctrl
+xsetwacom set "$DEV_PAD" "Button" "11" "key +Alt "                       # Alt
 
 ## Pad - Touch ring
 case $state in
